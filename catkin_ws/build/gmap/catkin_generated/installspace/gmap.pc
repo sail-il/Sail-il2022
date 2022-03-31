@@ -1,0 +1,8 @@
+prefix=/home/blacksail/catkin_ws/install
+
+Name: gmap
+Description: Description of gmap
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

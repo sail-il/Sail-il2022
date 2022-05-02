@@ -1,8 +1,0 @@
-prefix=/home/blacksail/catkin_ws/devel
-
-Name: gmap
-Description: Description of gmap
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

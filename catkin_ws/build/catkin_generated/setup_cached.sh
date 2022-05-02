@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/blacksail/catkin_ws/build'
+export PWD='/home/sail-shore/Sail-il2022/catkin_ws/build'

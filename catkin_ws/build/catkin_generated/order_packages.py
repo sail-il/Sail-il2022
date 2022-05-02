@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = '/home/blacksail/catkin_ws/src'
-whitelisted_packages = 'hector_compressed_map_transport;hector_geotiff;hector_geotiff_launch;hector_geotiff_plugins;hector_imu_attitude_to_tf;hector_map_server;hector_map_tools;hector_mapping;hector_marker_drawing;hector_nav_msgs;hector_slam;hector_slam_launch;hector_trajectory_server'.split(';') if 'hector_compressed_map_transport;hector_geotiff;hector_geotiff_launch;hector_geotiff_plugins;hector_imu_attitude_to_tf;hector_map_server;hector_map_tools;hector_mapping;hector_marker_drawing;hector_nav_msgs;hector_slam;hector_slam_launch;hector_trajectory_server' != '' else []
+source_root_dir = '/home/sail-shore/Sail-il2022/catkin_ws/src'
+whitelisted_packages = 'ublox_gps;ublox_msgs;ublox_serialization'.split(';') if 'ublox_gps;ublox_msgs;ublox_serialization' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/blacksail/catkin_ws/devel;/home/blacksail/QuanergySystems/catkin_ws/devel;/home/blacksail/camera_ws/devel;/home/blacksail/telemetry_ws/devel;/home/blacksail/BlackSail_ws/devel;/opt/ros/melodic'.split(';') if '/home/blacksail/catkin_ws/devel;/home/blacksail/QuanergySystems/catkin_ws/devel;/home/blacksail/camera_ws/devel;/home/blacksail/telemetry_ws/devel;/home/blacksail/BlackSail_ws/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/home/sail-shore/Sail-il2022/catkin_ws/devel;/home/sail-shore/catkin_ws/catkin_ws/devel;/opt/ros/melodic'.split(';') if '/home/sail-shore/Sail-il2022/catkin_ws/devel;/home/sail-shore/catkin_ws/catkin_ws/devel;/opt/ros/melodic' != '' else []

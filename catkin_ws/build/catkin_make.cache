@@ -1,2 +1,2 @@
-communication:hector_slam/hector_compressed_map_transport:hector_slam/hector_geotiff:hector_slam/hector_geotiff_launch:hector_slam/hector_geotiff_plugins:hector_slam/hector_imu_attitude_to_tf:hector_slam/hector_imu_tools:hector_slam/hector_map_server:hector_slam/hector_map_tools:hector_slam/hector_mapping:hector_slam/hector_marker_drawing:hector_slam/hector_nav_msgs:hector_slam/hector_slam:hector_slam/hector_slam_launch:hector_slam/hector_trajectory_server:pc2l:teleop_twist_keyboard
--DCATKIN_DEVEL_PREFIX=/home/blacksail/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/blacksail/catkin_ws/install -G Unix Makefiles
+communication:ublox/ublox:ublox/ublox_gps:ublox/ublox_msg_filters:ublox/ublox_msgs:ublox/ublox_serialization
+-DCATKIN_DEVEL_PREFIX=/home/sail-shore/Sail-il2022/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sail-shore/Sail-il2022/catkin_ws/install -G Unix Makefiles

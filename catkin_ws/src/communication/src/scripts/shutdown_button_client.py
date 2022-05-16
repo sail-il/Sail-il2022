@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 
 import rospy
-from telemtry.srv import bool
+from std_msgs.msg import String
 
 
 def handle_shutdown_button(req):
@@ -16,4 +16,4 @@ def handle_shutdown_button(req):
 if __name__ == '__main__':
     rospy.init_node("/Engine_Shutdown_Srv")
 
-    service = rospy.Service("/Engine_Shutdown", bool, handle_shutdown_button)
+    service = rospy.Service("/Engine_Shutdown", String, handle_shutdown_button)
